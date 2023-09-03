@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .section-min-height {
+         /* 68px come from top bar font line height + padding */
+         /* Add this to let the section take up to full height of the page for each section incase content is small */
+        min-height: calc(100vh - 68px)
+    }
+}
