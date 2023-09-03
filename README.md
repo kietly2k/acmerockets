@@ -5,7 +5,6 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
   - [Setup](#setup)
   - [Notes](#notes)
@@ -25,12 +24,6 @@
 
 - Ctrl+B: Open/ Close solution browser on vscode
 - Ctrl+Shift+P -> choose simple browser
-
-### Continued development
-
-- Practice more about Sass and Pug.
-- Learn about css animation.
-- Handle error in JS.
 
 ### Useful resources
 
