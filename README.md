@@ -47,3 +47,12 @@
 - npm i -D prettier-plugin-tailwindcss 
 
   + D: mean install dev dependencies
+
+Define section to take up to full height
+medias:
+  (min-aspect-ratio: 3/2)
+  (min-aspect-ratio: 1/2)
+css:
+  section {
+     min-height: calc(100vh - \[navbar-height\]);
+  }

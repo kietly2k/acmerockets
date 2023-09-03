@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 @layer utilities {
-    .section-min-height {
-         /* 68px come from top bar font line height + padding */
-         /* Add this to let the section take up to full height of the page for each section incase content is small */
-        min-height: calc(100vh - 68px)
-    }
+  .section-min-height {
+    /* 68px come from top bar font line height + padding */
+    /* Add this to let the section take up to full height of the page for each section incase content is small */
+    min-height: calc(100vh - 68px);
+  }
+
+    /* https://tailwindcss.com/docs/reusing-styles#extracting-classes-with-apply */
+  .toggle-btn {
+    @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg];
+  }
 }
