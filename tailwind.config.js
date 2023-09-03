@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       // Define custom media queries
-      // TODO: research min-aspect-ratio
+      // TODO: research [min, max]-aspect-ratio
       screens: {
         widescreen: { raw: "(min-aspect-ratio: 3/2)" },
-        tallscreen: { raw: "(min-aspect-ratio: 13/20)" },
+        tallscreen: { raw: "(max-aspect-ratio: 13/20)" },
       },
       keyframes: {
         'open-menu': {

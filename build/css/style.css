@@ -1286,7 +1286,7 @@ video {
   }
 }
 
-@media (min-aspect-ratio: 13/20) {
+@media (max-aspect-ratio: 13/20) {
   .tallscreen\:section-min-height {
     /* 68px come from top bar font line height + padding */
     /* Add this to let the section take up to full height of the page for each section incase content is small */
